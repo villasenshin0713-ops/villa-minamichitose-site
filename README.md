@@ -10,7 +10,8 @@
 - `wrangler.jsonc` — Cloudflare Workers（静的アセット配信）の設定
 
 ## 公開先
-Cloudflare Workers & Pages プロジェクト `villa-minamichitose-site`。
+**https://villa-minamichitose.com** （2026-10-02公開）
+Cloudflare Workers & Pages プロジェクト `villa-minamichitose-site`。ドメインはCloudflare Registrarで取得。
 GitHubの `main` にpushすると、Cloudflare側が `npx wrangler deploy` を実行して自動公開する。
 
 ## 更新のしかた
