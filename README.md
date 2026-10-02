@@ -4,13 +4,18 @@
 `00_素材ライブラリ/Villa南千歳_ホームページ/` は移行前のコピーなので編集しないこと。
 
 ## 構成
-- `index.html` — ページ本体（CSS・JSすべて内包。外部依存はGoogle Fontsのみ）
-- `images/` — 写真・ロゴ・間取り図
-- `robots.txt`
+- `public/index.html` — ページ本体（CSS・JSすべて内包。外部依存はGoogle Fontsのみ）
+- `public/images/` — 写真・ロゴ・間取り図
+- `public/robots.txt`
+- `wrangler.jsonc` — Cloudflare Workers（静的アセット配信）の設定
+
+## 公開先
+Cloudflare Workers & Pages プロジェクト `villa-minamichitose-site`。
+GitHubの `main` にpushすると、Cloudflare側が `npx wrangler deploy` を実行して自動公開する。
 
 ## 更新のしかた
 1. Claude Codeをこのフォルダで開き、「〇〇を直して」と頼む
-2. 直った内容を確認する（ローカル確認は `python3 -m http.server 8000` → http://127.0.0.1:8000 ）
+2. 直った内容を確認する（ローカル確認は `cd public && python3 -m http.server 8000` → http://127.0.0.1:8000 ）
 3. commit＆pushすると、数十秒〜1分で本番に反映される
 
 ## 素材の出どころ

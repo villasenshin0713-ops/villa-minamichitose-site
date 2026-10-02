@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers（静的アセット配信）の設定。
+  // Cloudflare側のデプロイコマンド `npx wrangler deploy` がこのファイルを読む。
+  "name": "villa-minamichitose-site",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
