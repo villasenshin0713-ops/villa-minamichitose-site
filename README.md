@@ -32,7 +32,7 @@ GitHubの `main` にpushすると、Cloudflare側が `npx wrangler deploy` を�
 ## 予約・問い合わせ導線
 - 公式予約ページ（Chillnn）: https://www.chillnn.com/1a0c30f006511b ← ヘッダー/ヒーロー/予約ボックスのCTAはすべてここ
 - Booking.com: 予約ボックスの副ボタン＋クチコミスコアの出典
-- TEL 080-6328-0624 ／ villaminamititose@gmail.com
+- TEL 050-8896-2394 ／ villasenshin0713@gmail.com
 
 ## 未確定・要確認
 - **チェックイン/アウトの表記ゆれ**: 公式予約ページは IN 15:00-22:00・OUT ~10:00、Booking.comは IN 15:00-23:00・OUT 8:00-10:00。サイトは公式予約ページに合わせた。OTA側を直すか要判断
