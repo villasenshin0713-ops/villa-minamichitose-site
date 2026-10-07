@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Villa 南千歳">
+  <!-- ロゴのステンドグラスのアーチを、16pxでも読めるよう大きめのタイルで簡略化したマーク -->
+  <rect width="64" height="64" rx="10" fill="#fbf4e9"/>
+  <clipPath id="arch"><path d="M8 49 A24 24 0 0 1 56 49 Z"/></clipPath>
+  <g clip-path="url(#arch)">
+    <rect x="8" y="25" width="48" height="24" fill="#fbf4e9"/>
+    <rect x="8"    y="25" width="11" height="11" fill="#efbc4c"/>
+    <rect x="20.5" y="25" width="11" height="11" fill="#4fa2d8"/>
+    <rect x="33"   y="25" width="11" height="11" fill="#de7429"/>
+    <rect x="45.5" y="25" width="11" height="11" fill="#4fa2d8"/>
+    <rect x="8"    y="37.5" width="11"   height="12" fill="#4fa2d8"/>
+    <rect x="20.5" y="37.5" width="23.5" height="12" fill="#1b4c96"/>
+    <rect x="45.5" y="37.5" width="11"   height="12" fill="#efbc4c"/>
+  </g>
+  <path d="M8 49 A24 24 0 0 1 56 49 Z" fill="none" stroke="#b4432f" stroke-width="2.2" stroke-linejoin="round"/>
+</svg>
